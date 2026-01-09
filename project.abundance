@@ -36,9 +36,11 @@
       "x": 0.238403451995685,
       "y": 0.7482678983833718,
       "uniqueID": "id-588",
-      "fileName": null,
+      "fileName": "Dust Hose 2.step",
       "name": "Import",
-      "type": null,
+      "type": "STEP",
+      "repoOwner": "wouldchuckit",
+      "repoName": "Maslow4_Dust_hose_adaptor_out_of_wood_slices._",
       "SVGwidth": 10
     },
     {
@@ -1507,18 +1509,6 @@
       },
       "unitsKey": "MM",
       "fileTypeVersion": 1
-    },
-    {
-      "atomType": "Import",
-      "x": 0.30151024811218985,
-      "y": 0.3394919168591224,
-      "uniqueID": "id-812",
-      "fileName": "Sled1.step",
-      "name": "Import",
-      "type": "STEP",
-      "repoOwner": "wouldchuckit",
-      "repoName": "Maslow4_Dust_hose_adaptor_out_of_wood_slices._",
-      "SVGwidth": 10
     }
   ],
   "allConnectors": [],
