@@ -2069,8 +2069,16 @@
       "name": "Molecule",
       "ioValues": [
         {
-          "name": "Input",
+          "name": "WoodThick",
           "ioValue": 10
+        },
+        {
+          "name": "ObjectToCut",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "GroupOfTen",
+          "ioValue": 0
         }
       ],
       "topLevel": false,
@@ -2089,8 +2097,8 @@
         },
         {
           "atomType": "Assembly",
-          "x": 0.4129989212513484,
-          "y": 0.17863741339491918,
+          "x": 0.6267529665587918,
+          "y": 0.47344110854503463,
           "uniqueID": "id-1525",
           "ioValues": [
             {
@@ -2137,8 +2145,8 @@
         },
         {
           "atomType": "Molecule",
-          "x": 0.2145091693635383,
-          "y": 0.10242494226327943,
+          "x": 0.24973031283710895,
+          "y": 0.19399538106235564,
           "uniqueID": "id-1526",
           "name": "Slicer",
           "ioValues": [
@@ -2148,7 +2156,7 @@
             },
             {
               "name": "Woodthick",
-              "ioValue": 3.175
+              "ioValue": 10
             },
             {
               "name": "Layer",
@@ -2219,7 +2227,7 @@
                 },
                 {
                   "name": "height",
-                  "ioValue": 3.175
+                  "ioValue": 10
                 }
               ]
             },
@@ -2236,7 +2244,7 @@
                 },
                 {
                   "name": "w",
-                  "ioValue": 3.175
+                  "ioValue": 10
                 }
               ],
               "currentEquation": "(z-1)*w"
@@ -2333,8 +2341,8 @@
         },
         {
           "atomType": "Molecule",
-          "x": 0.2145091693635383,
-          "y": 0.2248267898383372,
+          "x": 0.25026968716289105,
+          "y": 0.325635103926097,
           "uniqueID": "id-1536",
           "name": "Slicer",
           "ioValues": [
@@ -2344,7 +2352,7 @@
             },
             {
               "name": "Woodthick",
-              "ioValue": 3.175
+              "ioValue": 10
             },
             {
               "name": "Layer",
@@ -2415,7 +2423,7 @@
                 },
                 {
                   "name": "height",
-                  "ioValue": 3.175
+                  "ioValue": 10
                 }
               ]
             },
@@ -2520,8 +2528,8 @@
         },
         {
           "atomType": "Molecule",
-          "x": 0.2139697950377562,
-          "y": 0.344919168591224,
+          "x": 0.25620280474649404,
+          "y": 0.45265588914549654,
           "uniqueID": "id-1546",
           "name": "Slicer",
           "ioValues": [
@@ -2531,7 +2539,7 @@
             },
             {
               "name": "Woodthick",
-              "ioValue": 3.175
+              "ioValue": 10
             },
             {
               "name": "Layer",
@@ -2602,7 +2610,7 @@
                 },
                 {
                   "name": "height",
-                  "ioValue": 3.175
+                  "ioValue": 10
                 }
               ]
             },
@@ -2707,8 +2715,8 @@
         },
         {
           "atomType": "Molecule",
-          "x": 0.2139697950377562,
-          "y": 0.4650115473441108,
+          "x": 0.2594390507011866,
+          "y": 0.584295612009238,
           "uniqueID": "id-1556",
           "name": "Slicer",
           "ioValues": [
@@ -2718,7 +2726,7 @@
             },
             {
               "name": "Woodthick",
-              "ioValue": 3.175
+              "ioValue": 10
             },
             {
               "name": "Layer",
@@ -2789,7 +2797,7 @@
                 },
                 {
                   "name": "height",
-                  "ioValue": 3.175
+                  "ioValue": 10
                 }
               ]
             },
@@ -2894,8 +2902,8 @@
         },
         {
           "atomType": "Molecule",
-          "x": 0.21666666666666667,
-          "y": 0.5804849884526558,
+          "x": 0.26645091693635387,
+          "y": 0.6951501154734411,
           "uniqueID": "id-1566",
           "name": "Slicer",
           "ioValues": [
@@ -2905,7 +2913,7 @@
             },
             {
               "name": "Woodthick",
-              "ioValue": 3.175
+              "ioValue": 10
             },
             {
               "name": "Layer",
@@ -2976,7 +2984,7 @@
                 },
                 {
                   "name": "height",
-                  "ioValue": 3.175
+                  "ioValue": 10
                 }
               ]
             },
@@ -3081,8 +3089,8 @@
         },
         {
           "atomType": "Molecule",
-          "x": 0.29271844660194174,
-          "y": 0.3564665127020785,
+          "x": 0.38942826321467094,
+          "y": 0.34411085450346424,
           "uniqueID": "id-1576",
           "name": "Slicer",
           "ioValues": [
@@ -3092,7 +3100,7 @@
             },
             {
               "name": "Woodthick",
-              "ioValue": 3.175
+              "ioValue": 10
             },
             {
               "name": "Layer",
@@ -3163,7 +3171,7 @@
                 },
                 {
                   "name": "height",
-                  "ioValue": 3.175
+                  "ioValue": 10
                 }
               ]
             },
@@ -3268,8 +3276,8 @@
         },
         {
           "atomType": "Molecule",
-          "x": 0.2894822006472492,
-          "y": 0.4765588914549654,
+          "x": 0.38942826321467094,
+          "y": 0.4618937644341801,
           "uniqueID": "id-1586",
           "name": "Slicer",
           "ioValues": [
@@ -3279,7 +3287,7 @@
             },
             {
               "name": "Woodthick",
-              "ioValue": 3.175
+              "ioValue": 10
             },
             {
               "name": "Layer",
@@ -3350,7 +3358,7 @@
                 },
                 {
                   "name": "height",
-                  "ioValue": 3.175
+                  "ioValue": 10
                 }
               ]
             },
@@ -3455,8 +3463,8 @@
         },
         {
           "atomType": "Molecule",
-          "x": 0.28894282632146706,
-          "y": 0.601270207852194,
+          "x": 0.3872707659115426,
+          "y": 0.584295612009238,
           "uniqueID": "id-1596",
           "name": "Slicer",
           "ioValues": [
@@ -3466,7 +3474,7 @@
             },
             {
               "name": "Woodthick",
-              "ioValue": 3.175
+              "ioValue": 10
             },
             {
               "name": "Layer",
@@ -3537,7 +3545,7 @@
                 },
                 {
                   "name": "height",
-                  "ioValue": 3.175
+                  "ioValue": 10
                 }
               ]
             },
@@ -3642,8 +3650,8 @@
         },
         {
           "atomType": "Molecule",
-          "x": 0.29002157497303127,
-          "y": 0.7236720554272518,
+          "x": 0.38781014023732474,
+          "y": 0.7043879907621247,
           "uniqueID": "id-1606",
           "name": "Slicer",
           "ioValues": [
@@ -3653,7 +3661,7 @@
             },
             {
               "name": "Woodthick",
-              "ioValue": 3.175
+              "ioValue": 10
             },
             {
               "name": "Layer",
@@ -3724,7 +3732,7 @@
                 },
                 {
                   "name": "height",
-                  "ioValue": 3.175
+                  "ioValue": 10
                 }
               ]
             },
@@ -3829,8 +3837,8 @@
         },
         {
           "atomType": "Molecule",
-          "x": 0.29002157497303127,
-          "y": 0.8483833718244803,
+          "x": 0.38942826321467094,
+          "y": 0.8429561200923789,
           "uniqueID": "id-1616",
           "name": "Slicer",
           "ioValues": [
@@ -3840,7 +3848,7 @@
             },
             {
               "name": "Woodthick",
-              "ioValue": 3.175
+              "ioValue": 10
             },
             {
               "name": "Layer",
@@ -3911,7 +3919,7 @@
                 },
                 {
                   "name": "height",
-                  "ioValue": 3.175
+                  "ioValue": 10
                 }
               ]
             },
@@ -4018,10 +4026,87 @@
           "atomType": "Input",
           "x": 0.01815,
           "y": 0.18475750577367206,
-          "uniqueID": "id-1898"
+          "uniqueID": "id-1898",
+          "name": "WoodThick"
+        },
+        {
+          "atomType": "Input",
+          "x": 0.01815,
+          "y": 0.25075750577367206,
+          "uniqueID": "id-1901",
+          "name": "ObjectToCut",
+          "type": "geometry"
+        },
+        {
+          "atomType": "Input",
+          "x": 0.01815,
+          "y": 0.31675750577367207,
+          "uniqueID": "id-1904",
+          "name": "GroupOfTen"
+        },
+        {
+          "atomType": "Equation",
+          "x": 0.18069039913700108,
+          "y": 0.21478060046189376,
+          "uniqueID": "id-1907",
+          "name": "n+1",
+          "ioValues": [
+            {
+              "name": "n",
+              "ioValue": 0
+            }
+          ],
+          "currentEquation": "n+1"
+        },
+        {
+          "atomType": "Equation",
+          "x": 0.18392664509169365,
+          "y": 0.30946882217090066,
+          "uniqueID": "id-1912",
+          "name": "n+1",
+          "ioValues": [
+            {
+              "name": "n",
+              "ioValue": 0
+            }
+          ],
+          "currentEquation": "n+1"
+        },
+        {
+          "atomType": "Equation",
+          "x": 0.18338727076591155,
+          "y": 0.4457274826789838,
+          "uniqueID": "id-1915",
+          "name": "n+1",
+          "ioValues": [
+            {
+              "name": "n",
+              "ioValue": 0
+            }
+          ],
+          "currentEquation": "n+1"
+        },
+        {
+          "atomType": "Equation",
+          "x": 0.21251348435814457,
+          "y": 0.47344110854503463,
+          "uniqueID": "id-1918",
+          "name": "n+1",
+          "ioValues": [
+            {
+              "name": "n",
+              "ioValue": 0
+            }
+          ],
+          "currentEquation": "n+1"
         }
       ],
       "allConnectors": [
+        {
+          "ap2Name": "number or geometry",
+          "ap1ID": "id-1525",
+          "ap2ID": "id-1523"
+        },
         {
           "ap2Name": "Shape 1",
           "ap1ID": "id-1526",
@@ -4071,6 +4156,126 @@
           "ap2Name": "Shape 10",
           "ap1ID": "id-1616",
           "ap2ID": "id-1525"
+        },
+        {
+          "ap2Name": "Woodthick",
+          "ap1ID": "id-1898",
+          "ap2ID": "id-1526"
+        },
+        {
+          "ap2Name": "Woodthick",
+          "ap1ID": "id-1898",
+          "ap2ID": "id-1536"
+        },
+        {
+          "ap2Name": "Woodthick",
+          "ap1ID": "id-1898",
+          "ap2ID": "id-1546"
+        },
+        {
+          "ap2Name": "Woodthick",
+          "ap1ID": "id-1898",
+          "ap2ID": "id-1556"
+        },
+        {
+          "ap2Name": "Woodthick",
+          "ap1ID": "id-1898",
+          "ap2ID": "id-1566"
+        },
+        {
+          "ap2Name": "Woodthick",
+          "ap1ID": "id-1898",
+          "ap2ID": "id-1576"
+        },
+        {
+          "ap2Name": "Woodthick",
+          "ap1ID": "id-1898",
+          "ap2ID": "id-1586"
+        },
+        {
+          "ap2Name": "Woodthick",
+          "ap1ID": "id-1898",
+          "ap2ID": "id-1596"
+        },
+        {
+          "ap2Name": "Woodthick",
+          "ap1ID": "id-1898",
+          "ap2ID": "id-1606"
+        },
+        {
+          "ap2Name": "Woodthick",
+          "ap1ID": "id-1898",
+          "ap2ID": "id-1616"
+        },
+        {
+          "ap2Name": "Cutting_shape",
+          "ap1ID": "id-1901",
+          "ap2ID": "id-1526"
+        },
+        {
+          "ap2Name": "Cutting_shape",
+          "ap1ID": "id-1901",
+          "ap2ID": "id-1536"
+        },
+        {
+          "ap2Name": "Cutting_shape",
+          "ap1ID": "id-1901",
+          "ap2ID": "id-1546"
+        },
+        {
+          "ap2Name": "Cutting_shape",
+          "ap1ID": "id-1901",
+          "ap2ID": "id-1556"
+        },
+        {
+          "ap2Name": "Cutting_shape",
+          "ap1ID": "id-1901",
+          "ap2ID": "id-1566"
+        },
+        {
+          "ap2Name": "Cutting_shape",
+          "ap1ID": "id-1901",
+          "ap2ID": "id-1576"
+        },
+        {
+          "ap2Name": "Cutting_shape",
+          "ap1ID": "id-1901",
+          "ap2ID": "id-1586"
+        },
+        {
+          "ap2Name": "Cutting_shape",
+          "ap1ID": "id-1901",
+          "ap2ID": "id-1596"
+        },
+        {
+          "ap2Name": "Cutting_shape",
+          "ap1ID": "id-1901",
+          "ap2ID": "id-1606"
+        },
+        {
+          "ap2Name": "Cutting_shape",
+          "ap1ID": "id-1901",
+          "ap2ID": "id-1616"
+        },
+        {
+          "ap2Name": "n",
+          "ap1ID": "id-1904",
+          "ap2ID": "id-1907"
+        },
+        {
+          "ap2Name": "n",
+          "ap1ID": "id-1904",
+          "ap2ID": "id-1912"
+        },
+        {
+          "ap2Name": "n",
+          "ap1ID": "id-1904",
+          "ap2ID": "id-1915"
+        },
+        {
+          "ap2Name": "n",
+          "ap1ID": "id-1904",
+          "ap2ID": "id-1918"
         }
       ],
       "fileTypeVersion": 1
