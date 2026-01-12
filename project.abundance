@@ -26,8 +26,8 @@
     },
     {
       "atomType": "Input",
-      "x": 0.01815,
-      "y": 0.10999999999999999,
+      "x": 0.025384615384615384,
+      "y": 0.15384615384615385,
       "uniqueID": "id-6",
       "name": "WoodThick"
     },
@@ -81,6 +81,10 @@
         {
           "name": "Part Padding",
           "ioValue": 10
+        },
+        {
+          "name": "Orientations per Part",
+          "ioValue": 12
         }
       ],
       "placements": [
@@ -408,8 +412,7 @@
         },
         {
           "name": "y length",
-          "ioValue": 10,
-          "currentEquation": "10"
+          "ioValue": 10
         }
       ]
     },
@@ -454,6 +457,36 @@
       ]
     },
     {
+      "atomType": "Export",
+      "x": 0.9654800431499461,
+      "y": 0.7759815242494226,
+      "uniqueID": "id-4916",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "File Type",
+          "ioValue": "STL",
+          "currentEquation": "STL"
+        },
+        {
+          "name": "Resolution (dpi)",
+          "ioValue": 96
+        },
+        {
+          "name": "Part Name",
+          "ioValue": "Maslow4_Dust_hose_adaptor_out_of_wood_slices",
+          "currentEquation": "Maslow4_Dust_hose_adaptor_out_of_wood_slices"
+        }
+      ],
+      "type": null,
+      "resolution": 96,
+      "importIndex": 0,
+      "partName": "Maslow4_Dust_hose_adaptor_out_of_wood_slices"
+    },
+    {
       "atomType": "Molecule",
       "x": 0.4228694714131607,
       "y": 0.10392609699769054,
@@ -489,23 +522,23 @@
         },
         {
           "atomType": "Input",
-          "x": 0.01815,
-          "y": 0.10999999999999999,
+          "x": 0.025384615384615384,
+          "y": 0.15384615384615385,
           "uniqueID": "id-840",
           "name": "Cutting_shape",
           "type": "geometry"
         },
         {
           "atomType": "Input",
-          "x": 0.01815,
-          "y": 0.176,
+          "x": 0.025384615384615384,
+          "y": 0.24615384615384617,
           "uniqueID": "id-843",
           "name": "Woodthick"
         },
         {
           "atomType": "Input",
-          "x": 0.01815,
-          "y": 0.242,
+          "x": 0.025384615384615384,
+          "y": 0.3384615384615385,
           "uniqueID": "id-846",
           "name": "Layer"
         },
@@ -685,23 +718,23 @@
         },
         {
           "atomType": "Input",
-          "x": 0.01815,
-          "y": 0.10999999999999999,
+          "x": 0.025384615384615384,
+          "y": 0.15384615384615385,
           "uniqueID": "id-1898",
           "name": "WoodThick"
         },
         {
           "atomType": "Input",
-          "x": 0.01815,
-          "y": 0.176,
+          "x": 0.025384615384615384,
+          "y": 0.24615384615384617,
           "uniqueID": "id-1901",
           "name": "ObjectToCut",
           "type": "geometry"
         },
         {
           "atomType": "Input",
-          "x": 0.01815,
-          "y": 0.242,
+          "x": 0.025384615384615384,
+          "y": 0.3384615384615385,
           "uniqueID": "id-1904",
           "name": "GroupOfTen"
         },
@@ -929,23 +962,23 @@
             },
             {
               "atomType": "Input",
-              "x": 0.01815,
-              "y": 0.10999999999999999,
+              "x": 0.025384615384615384,
+              "y": 0.15384615384615385,
               "uniqueID": "id-1528",
               "name": "Cutting_shape",
               "type": "geometry"
             },
             {
               "atomType": "Input",
-              "x": 0.01815,
-              "y": 0.176,
+              "x": 0.025384615384615384,
+              "y": 0.24615384615384617,
               "uniqueID": "id-1529",
               "name": "Woodthick"
             },
             {
               "atomType": "Input",
-              "x": 0.01815,
-              "y": 0.242,
+              "x": 0.025384615384615384,
+              "y": 0.3384615384615385,
               "uniqueID": "id-1530",
               "name": "Layer"
             },
@@ -1125,23 +1158,23 @@
             },
             {
               "atomType": "Input",
-              "x": 0.01815,
-              "y": 0.10999999999999999,
+              "x": 0.025384615384615384,
+              "y": 0.15384615384615385,
               "uniqueID": "id-2541",
               "name": "Cutting_shape",
               "type": "geometry"
             },
             {
               "atomType": "Input",
-              "x": 0.01815,
-              "y": 0.176,
+              "x": 0.025384615384615384,
+              "y": 0.24615384615384617,
               "uniqueID": "id-2542",
               "name": "Woodthick"
             },
             {
               "atomType": "Input",
-              "x": 0.01815,
-              "y": 0.242,
+              "x": 0.025384615384615384,
+              "y": 0.3384615384615385,
               "uniqueID": "id-2543",
               "name": "Layer"
             },
@@ -1321,23 +1354,23 @@
             },
             {
               "atomType": "Input",
-              "x": 0.01815,
-              "y": 0.10999999999999999,
+              "x": 0.025384615384615384,
+              "y": 0.15384615384615385,
               "uniqueID": "id-2578",
               "name": "Cutting_shape",
               "type": "geometry"
             },
             {
               "atomType": "Input",
-              "x": 0.01815,
-              "y": 0.176,
+              "x": 0.025384615384615384,
+              "y": 0.24615384615384617,
               "uniqueID": "id-2579",
               "name": "Woodthick"
             },
             {
               "atomType": "Input",
-              "x": 0.01815,
-              "y": 0.242,
+              "x": 0.025384615384615384,
+              "y": 0.3384615384615385,
               "uniqueID": "id-2580",
               "name": "Layer"
             },
@@ -1517,23 +1550,23 @@
             },
             {
               "atomType": "Input",
-              "x": 0.01815,
-              "y": 0.10999999999999999,
+              "x": 0.025384615384615384,
+              "y": 0.15384615384615385,
               "uniqueID": "id-2621",
               "name": "Cutting_shape",
               "type": "geometry"
             },
             {
               "atomType": "Input",
-              "x": 0.01815,
-              "y": 0.176,
+              "x": 0.025384615384615384,
+              "y": 0.24615384615384617,
               "uniqueID": "id-2622",
               "name": "Woodthick"
             },
             {
               "atomType": "Input",
-              "x": 0.01815,
-              "y": 0.242,
+              "x": 0.025384615384615384,
+              "y": 0.3384615384615385,
               "uniqueID": "id-2623",
               "name": "Layer"
             },
@@ -1713,23 +1746,23 @@
             },
             {
               "atomType": "Input",
-              "x": 0.01815,
-              "y": 0.10999999999999999,
+              "x": 0.025384615384615384,
+              "y": 0.15384615384615385,
               "uniqueID": "id-2658",
               "name": "Cutting_shape",
               "type": "geometry"
             },
             {
               "atomType": "Input",
-              "x": 0.01815,
-              "y": 0.176,
+              "x": 0.025384615384615384,
+              "y": 0.24615384615384617,
               "uniqueID": "id-2659",
               "name": "Woodthick"
             },
             {
               "atomType": "Input",
-              "x": 0.01815,
-              "y": 0.242,
+              "x": 0.025384615384615384,
+              "y": 0.3384615384615385,
               "uniqueID": "id-2660",
               "name": "Layer"
             },
@@ -1909,23 +1942,23 @@
             },
             {
               "atomType": "Input",
-              "x": 0.01815,
-              "y": 0.10999999999999999,
+              "x": 0.025384615384615384,
+              "y": 0.15384615384615385,
               "uniqueID": "id-2695",
               "name": "Cutting_shape",
               "type": "geometry"
             },
             {
               "atomType": "Input",
-              "x": 0.01815,
-              "y": 0.176,
+              "x": 0.025384615384615384,
+              "y": 0.24615384615384617,
               "uniqueID": "id-2696",
               "name": "Woodthick"
             },
             {
               "atomType": "Input",
-              "x": 0.01815,
-              "y": 0.242,
+              "x": 0.025384615384615384,
+              "y": 0.3384615384615385,
               "uniqueID": "id-2697",
               "name": "Layer"
             },
@@ -2105,23 +2138,23 @@
             },
             {
               "atomType": "Input",
-              "x": 0.01815,
-              "y": 0.10999999999999999,
+              "x": 0.025384615384615384,
+              "y": 0.15384615384615385,
               "uniqueID": "id-2951",
               "name": "Cutting_shape",
               "type": "geometry"
             },
             {
               "atomType": "Input",
-              "x": 0.01815,
-              "y": 0.176,
+              "x": 0.025384615384615384,
+              "y": 0.24615384615384617,
               "uniqueID": "id-2952",
               "name": "Woodthick"
             },
             {
               "atomType": "Input",
-              "x": 0.01815,
-              "y": 0.242,
+              "x": 0.025384615384615384,
+              "y": 0.3384615384615385,
               "uniqueID": "id-2953",
               "name": "Layer"
             },
@@ -2301,23 +2334,23 @@
             },
             {
               "atomType": "Input",
-              "x": 0.01815,
-              "y": 0.10999999999999999,
+              "x": 0.025384615384615384,
+              "y": 0.15384615384615385,
               "uniqueID": "id-2988",
               "name": "Cutting_shape",
               "type": "geometry"
             },
             {
               "atomType": "Input",
-              "x": 0.01815,
-              "y": 0.176,
+              "x": 0.025384615384615384,
+              "y": 0.24615384615384617,
               "uniqueID": "id-2989",
               "name": "Woodthick"
             },
             {
               "atomType": "Input",
-              "x": 0.01815,
-              "y": 0.242,
+              "x": 0.025384615384615384,
+              "y": 0.3384615384615385,
               "uniqueID": "id-2990",
               "name": "Layer"
             },
@@ -2497,23 +2530,23 @@
             },
             {
               "atomType": "Input",
-              "x": 0.01815,
-              "y": 0.10999999999999999,
+              "x": 0.025384615384615384,
+              "y": 0.15384615384615385,
               "uniqueID": "id-3025",
               "name": "Cutting_shape",
               "type": "geometry"
             },
             {
               "atomType": "Input",
-              "x": 0.01815,
-              "y": 0.176,
+              "x": 0.025384615384615384,
+              "y": 0.24615384615384617,
               "uniqueID": "id-3026",
               "name": "Woodthick"
             },
             {
               "atomType": "Input",
-              "x": 0.01815,
-              "y": 0.242,
+              "x": 0.025384615384615384,
+              "y": 0.3384615384615385,
               "uniqueID": "id-3027",
               "name": "Layer"
             },
@@ -2693,23 +2726,23 @@
             },
             {
               "atomType": "Input",
-              "x": 0.01815,
-              "y": 0.10999999999999999,
+              "x": 0.025384615384615384,
+              "y": 0.15384615384615385,
               "uniqueID": "id-3062",
               "name": "Cutting_shape",
               "type": "geometry"
             },
             {
               "atomType": "Input",
-              "x": 0.01815,
-              "y": 0.176,
+              "x": 0.025384615384615384,
+              "y": 0.24615384615384617,
               "uniqueID": "id-3063",
               "name": "Woodthick"
             },
             {
               "atomType": "Input",
-              "x": 0.01815,
-              "y": 0.242,
+              "x": 0.025384615384615384,
+              "y": 0.3384615384615385,
               "uniqueID": "id-3064",
               "name": "Layer"
             },
@@ -3149,23 +3182,23 @@
         },
         {
           "atomType": "Input",
-          "x": 0.01815,
-          "y": 0.10999999999999999,
+          "x": 0.025384615384615384,
+          "y": 0.15384615384615385,
           "uniqueID": "id-3103",
           "name": "WoodThick"
         },
         {
           "atomType": "Input",
-          "x": 0.01815,
-          "y": 0.176,
+          "x": 0.025384615384615384,
+          "y": 0.24615384615384617,
           "uniqueID": "id-3104",
           "name": "ObjectToCut",
           "type": "geometry"
         },
         {
           "atomType": "Input",
-          "x": 0.01815,
-          "y": 0.242,
+          "x": 0.025384615384615384,
+          "y": 0.3384615384615385,
           "uniqueID": "id-3105",
           "name": "GroupOfTen"
         },
@@ -3385,23 +3418,23 @@
             },
             {
               "atomType": "Input",
-              "x": 0.01815,
-              "y": 0.10999999999999999,
+              "x": 0.025384615384615384,
+              "y": 0.15384615384615385,
               "uniqueID": "id-3118",
               "name": "Cutting_shape",
               "type": "geometry"
             },
             {
               "atomType": "Input",
-              "x": 0.01815,
-              "y": 0.176,
+              "x": 0.025384615384615384,
+              "y": 0.24615384615384617,
               "uniqueID": "id-3119",
               "name": "Woodthick"
             },
             {
               "atomType": "Input",
-              "x": 0.01815,
-              "y": 0.242,
+              "x": 0.025384615384615384,
+              "y": 0.3384615384615385,
               "uniqueID": "id-3120",
               "name": "Layer"
             },
@@ -3581,23 +3614,23 @@
             },
             {
               "atomType": "Input",
-              "x": 0.01815,
-              "y": 0.10999999999999999,
+              "x": 0.025384615384615384,
+              "y": 0.15384615384615385,
               "uniqueID": "id-3128",
               "name": "Cutting_shape",
               "type": "geometry"
             },
             {
               "atomType": "Input",
-              "x": 0.01815,
-              "y": 0.176,
+              "x": 0.025384615384615384,
+              "y": 0.24615384615384617,
               "uniqueID": "id-3129",
               "name": "Woodthick"
             },
             {
               "atomType": "Input",
-              "x": 0.01815,
-              "y": 0.242,
+              "x": 0.025384615384615384,
+              "y": 0.3384615384615385,
               "uniqueID": "id-3130",
               "name": "Layer"
             },
@@ -3777,23 +3810,23 @@
             },
             {
               "atomType": "Input",
-              "x": 0.01815,
-              "y": 0.10999999999999999,
+              "x": 0.025384615384615384,
+              "y": 0.15384615384615385,
               "uniqueID": "id-3138",
               "name": "Cutting_shape",
               "type": "geometry"
             },
             {
               "atomType": "Input",
-              "x": 0.01815,
-              "y": 0.176,
+              "x": 0.025384615384615384,
+              "y": 0.24615384615384617,
               "uniqueID": "id-3139",
               "name": "Woodthick"
             },
             {
               "atomType": "Input",
-              "x": 0.01815,
-              "y": 0.242,
+              "x": 0.025384615384615384,
+              "y": 0.3384615384615385,
               "uniqueID": "id-3140",
               "name": "Layer"
             },
@@ -3973,23 +4006,23 @@
             },
             {
               "atomType": "Input",
-              "x": 0.01815,
-              "y": 0.10999999999999999,
+              "x": 0.025384615384615384,
+              "y": 0.15384615384615385,
               "uniqueID": "id-3148",
               "name": "Cutting_shape",
               "type": "geometry"
             },
             {
               "atomType": "Input",
-              "x": 0.01815,
-              "y": 0.176,
+              "x": 0.025384615384615384,
+              "y": 0.24615384615384617,
               "uniqueID": "id-3149",
               "name": "Woodthick"
             },
             {
               "atomType": "Input",
-              "x": 0.01815,
-              "y": 0.242,
+              "x": 0.025384615384615384,
+              "y": 0.3384615384615385,
               "uniqueID": "id-3150",
               "name": "Layer"
             },
@@ -4169,23 +4202,23 @@
             },
             {
               "atomType": "Input",
-              "x": 0.01815,
-              "y": 0.10999999999999999,
+              "x": 0.025384615384615384,
+              "y": 0.15384615384615385,
               "uniqueID": "id-3158",
               "name": "Cutting_shape",
               "type": "geometry"
             },
             {
               "atomType": "Input",
-              "x": 0.01815,
-              "y": 0.176,
+              "x": 0.025384615384615384,
+              "y": 0.24615384615384617,
               "uniqueID": "id-3159",
               "name": "Woodthick"
             },
             {
               "atomType": "Input",
-              "x": 0.01815,
-              "y": 0.242,
+              "x": 0.025384615384615384,
+              "y": 0.3384615384615385,
               "uniqueID": "id-3160",
               "name": "Layer"
             },
@@ -4365,23 +4398,23 @@
             },
             {
               "atomType": "Input",
-              "x": 0.01815,
-              "y": 0.10999999999999999,
+              "x": 0.025384615384615384,
+              "y": 0.15384615384615385,
               "uniqueID": "id-3168",
               "name": "Cutting_shape",
               "type": "geometry"
             },
             {
               "atomType": "Input",
-              "x": 0.01815,
-              "y": 0.176,
+              "x": 0.025384615384615384,
+              "y": 0.24615384615384617,
               "uniqueID": "id-3169",
               "name": "Woodthick"
             },
             {
               "atomType": "Input",
-              "x": 0.01815,
-              "y": 0.242,
+              "x": 0.025384615384615384,
+              "y": 0.3384615384615385,
               "uniqueID": "id-3170",
               "name": "Layer"
             },
@@ -4561,23 +4594,23 @@
             },
             {
               "atomType": "Input",
-              "x": 0.01815,
-              "y": 0.10999999999999999,
+              "x": 0.025384615384615384,
+              "y": 0.15384615384615385,
               "uniqueID": "id-3178",
               "name": "Cutting_shape",
               "type": "geometry"
             },
             {
               "atomType": "Input",
-              "x": 0.01815,
-              "y": 0.176,
+              "x": 0.025384615384615384,
+              "y": 0.24615384615384617,
               "uniqueID": "id-3179",
               "name": "Woodthick"
             },
             {
               "atomType": "Input",
-              "x": 0.01815,
-              "y": 0.242,
+              "x": 0.025384615384615384,
+              "y": 0.3384615384615385,
               "uniqueID": "id-3180",
               "name": "Layer"
             },
@@ -4757,23 +4790,23 @@
             },
             {
               "atomType": "Input",
-              "x": 0.01815,
-              "y": 0.10999999999999999,
+              "x": 0.025384615384615384,
+              "y": 0.15384615384615385,
               "uniqueID": "id-3188",
               "name": "Cutting_shape",
               "type": "geometry"
             },
             {
               "atomType": "Input",
-              "x": 0.01815,
-              "y": 0.176,
+              "x": 0.025384615384615384,
+              "y": 0.24615384615384617,
               "uniqueID": "id-3189",
               "name": "Woodthick"
             },
             {
               "atomType": "Input",
-              "x": 0.01815,
-              "y": 0.242,
+              "x": 0.025384615384615384,
+              "y": 0.3384615384615385,
               "uniqueID": "id-3190",
               "name": "Layer"
             },
@@ -4949,23 +4982,23 @@
             },
             {
               "atomType": "Input",
-              "x": 0.01815,
-              "y": 0.10999999999999999,
+              "x": 0.025384615384615384,
+              "y": 0.15384615384615385,
               "uniqueID": "id-3198",
               "name": "Cutting_shape",
               "type": "geometry"
             },
             {
               "atomType": "Input",
-              "x": 0.01815,
-              "y": 0.176,
+              "x": 0.025384615384615384,
+              "y": 0.24615384615384617,
               "uniqueID": "id-3199",
               "name": "Woodthick"
             },
             {
               "atomType": "Input",
-              "x": 0.01815,
-              "y": 0.242,
+              "x": 0.025384615384615384,
+              "y": 0.3384615384615385,
               "uniqueID": "id-3200",
               "name": "Layer"
             },
@@ -5123,23 +5156,23 @@
             },
             {
               "atomType": "Input",
-              "x": 0.01815,
-              "y": 0.10999999999999999,
+              "x": 0.025384615384615384,
+              "y": 0.15384615384615385,
               "uniqueID": "id-3208",
               "name": "Cutting_shape",
               "type": "geometry"
             },
             {
               "atomType": "Input",
-              "x": 0.01815,
-              "y": 0.176,
+              "x": 0.025384615384615384,
+              "y": 0.24615384615384617,
               "uniqueID": "id-3209",
               "name": "Woodthick"
             },
             {
               "atomType": "Input",
-              "x": 0.01815,
-              "y": 0.242,
+              "x": 0.025384615384615384,
+              "y": 0.3384615384615385,
               "uniqueID": "id-3210",
               "name": "Layer"
             },
@@ -5514,36 +5547,6 @@
         }
       ],
       "fileTypeVersion": 1
-    },
-    {
-      "atomType": "Export",
-      "x": 0.9654800431499461,
-      "y": 0.7759815242494226,
-      "uniqueID": "id-4916",
-      "ioValues": [
-        {
-          "name": "geometry",
-          "ioValue": "__GEOMETRY_INPUT__"
-        },
-        {
-          "name": "File Type",
-          "ioValue": "STL",
-          "currentEquation": "STL"
-        },
-        {
-          "name": "Resolution (dpi)",
-          "ioValue": 96
-        },
-        {
-          "name": "Part Name",
-          "ioValue": "Maslow4_Dust_hose_adaptor_out_of_wood_slices",
-          "currentEquation": "Maslow4_Dust_hose_adaptor_out_of_wood_slices"
-        }
-      ],
-      "type": null,
-      "resolution": 96,
-      "importIndex": 0,
-      "partName": "Maslow4_Dust_hose_adaptor_out_of_wood_slices"
     }
   ],
   "allConnectors": [
