@@ -5550,8 +5550,8 @@
     },
     {
       "atomType": "GitHubMolecule",
-      "x": 0.5670572916666667,
-      "y": 0.800595238095238,
+      "x": 0.5716145833333334,
+      "y": 0.8154761904761905,
       "uniqueID": "id-5626",
       "name": "IthFromAssembly",
       "ioValues": [
