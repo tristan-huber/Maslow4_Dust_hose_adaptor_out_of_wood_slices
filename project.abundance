@@ -5698,6 +5698,20 @@
           }
         ]
       ]
+    },
+    {
+      "atomType": "Code",
+      "x": 0.5807291666666666,
+      "y": 0.19642857142857142,
+      "uniqueID": "id-5645",
+      "ioValues": [
+        {
+          "name": "shape",
+          "ioValue": "__GEOMETRY_INPUT__"
+        }
+      ],
+      "codeVersion": 1,
+      "code": "\n// Example Code\nconst Inputs = [\n  { inputName: \"shape\", type: \"geometry\", defaultValue: null },\n];\n\nlet importedShape = library[shape];\nconst leafs = await AssemblyAsIterable(importedShape)\nleafs.forEach((leaf) => {\n  const replicadShape = leaf.geometry[0]  \n  const bounds = replicadShape.boundingBox.bounds\n  console.log(bounds);\n});\nreturn importedShape"
     }
   ],
   "allConnectors": [
@@ -5810,6 +5824,11 @@
       "ap2Name": "geometry",
       "ap1ID": "id-5626",
       "ap2ID": "id-5638"
+    },
+    {
+      "ap2Name": "shape",
+      "ap1ID": "id-5626",
+      "ap2ID": "id-5645"
     }
   ],
   "unitsKey": "MM",
